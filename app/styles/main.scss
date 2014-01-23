@@ -1,0 +1,153 @@
+@import "compass/css3";
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: rgb(223, 107, 99);
+  background-image: url("images/Charleston2.jpg"); 
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-right: 0;
+    margin: 0;
+    background-color: rgb(54, 54, 53);
+    height: 60px;
+}
+
+    .title {
+        color: white;
+        line-height: 60px;
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 25px;
+        -webkit-transition: 2s ease;
+        
+        &.fadetitle {
+        font-weight: bold;
+        color: rgb(223, 107, 99);
+        letter-spacing: 40px;
+        }       
+
+}
+
+
+// Number One
+
+
+.expandable {
+    font-size: 20px;
+    font-family: Helvetica;
+    color: silver;
+    text-align: center;
+    opacity: .5;
+    margin: 50px auto;
+    display: block;
+    height: 40px;
+    width: 400px;
+}
+
+.boxonecontainer {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(223, 107, 99);
+    height: 100px;
+}
+
+// Number two
+
+.boxone {
+    position: relative;
+    width: 960px;
+    height: 100px;
+    margin: 50px auto;
+    background-color: rgb(54, 54, 53);
+}
+
+// All Buttons
+
+.button {
+    position: relative;
+    display: inline-block;
+    color: rgb(223, 107, 99);
+    font-family: Helvetica;
+    text-align: center;
+    line-height: 62px;
+    width: 300px;
+    height: 62px;
+    border-radius: 6px;
+    margin: 25px 8px auto;
+    background: rgb(54, 54, 53);
+    
+    &.toggle {
+    color: rgb(223, 107, 99); 
+    background: white;
+    }
+
+    &.click {
+    color: rgb(223, 107, 99); 
+    background: white;
+    }
+
+    &.dblclick {
+    color: rgb(223, 107, 99); 
+    background: white;
+    }
+
+    &.dissapear {
+    color: rgb(223, 107, 99); 
+    background: white;
+    opacity: 0;
+    -webkit-transition: 1s ease;
+    }
+
+    &.hover {
+    color: rgb(223, 107, 99); 
+    background: white;
+    }
+
+    & .focus {
+    outline: none;
+    color: rgb(223, 107, 99); 
+    background: rgb(54, 54, 53); 
+    }
+
+    &.mouseleave {
+    color: rgb(223, 107, 99); 
+    background: white;
+    }
+
+    &.fadein {
+    font-weight: bold;
+    color: white;
+    background: rgb(148, 138, 33);
+    -webkit-transition: 3s ease;
+    } 
+
+    &.fadeallbuttons {
+    font-weight: bold;
+    color: white;
+    background: rgb(148, 138, 33);
+    -webkit-transition: 3s ease;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
