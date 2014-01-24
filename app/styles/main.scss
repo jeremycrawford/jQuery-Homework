@@ -3,8 +3,7 @@
 body {
   margin: 0 auto;
   padding: 0;
-  background: rgb(223, 107, 99);
-  background-image: url("images/Charleston2.jpg"); 
+  background: rgb(223, 107, 99); 
 }
 
 .container {
@@ -66,6 +65,11 @@ body {
 // Number two
 
 .boxone {
+    line-height: 100px;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: silver;
+    text-align: center;
     position: relative;
     width: 960px;
     height: 100px;
@@ -138,8 +142,161 @@ body {
     color: white;
     background: rgb(148, 138, 33);
     -webkit-transition: 3s ease;
-    }   
+    }  
+
+    &.widen{
+    font-size: 12px; 
+    } 
+
+    .white-box {
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        height: 1px;
+        width: 100px;
+        background: rgb(223, 107, 99);
+        -webkit-transition: 2s ease;
+        
+        &.expand {
+            position: relative;
+            display: inline-block;
+            background: white;
+            width: 250px;
+            height: 30px;
+            -webkit-transition: 2s ease;
+        }
+    }
+
+
+    .white-box-two {
+        position: relative;
+        display: inline-block;
+        margin: -4px auto;
+        height: 20px;
+        width: 20px;
+        background: rgb(223, 107, 99);
+        -webkit-transition: all 2s ease;
+
+        &.spin {
+            margin: 4px auto;
+            position: relative;
+            display: inline-block;
+            background: white;
+            width: 10px;
+            height: 10px;
+            -webkit-transition: all 2s ease;
+            -webkit-transform: rotate(180deg);
+        }
+    }
+
+    .green-box {
+        position: relative;
+        display: inline-block;
+        margin: -4px auto;
+        height: 20px;
+        width: 20px;
+        background: rgb(148, 138, 33);
+        -webkit-transition: all 2s ease;
+
+        &.dissapear {
+            margin: 4px auto;
+            position: relative;
+            display: inline-block;
+            background: rgb(54, 54, 53);
+            width: 10px;
+            height: 10px;
+            -webkit-transition: all 2s ease;
+            opacity: 0;
+        }
+    }
+
+    .green-box {
+        position: relative;
+        display: inline-block;
+        margin: -4px auto;
+        height: 20px;
+        width: 20px;
+        background: rgb(148, 138, 33);
+        -webkit-transition: all 2s ease;
+
+        &.dissapear {
+            margin: 4px auto;
+            position: relative;
+            display: inline-block;
+            background: rgb(54, 54, 53);
+            width: 10px;
+            height: 10px;
+            -webkit-transition: all 2s ease;
+            opacity: 0;
+        }
+    }
+
+// Button Seventeen   
+
+    .redbox {
+        position: relative;
+        display: inline-block;
+        margin: -4px auto;
+        background: rgb(223, 107, 99);
+        height: 20px;
+        width: 20px;
+    }
+
+// Button Eighteen   
+
+    .yellowrectangle {
+        position: relative;
+        margin: 25px auto;
+        background: yellow;
+        height: 10px;
+        width: 100px;
+    }
+
+// Button Nineteen   
+
+    .bluerectangle {
+        position: relative;
+        margin: 25px auto;
+        background: blue;
+        height: 10px;
+        width: 100px;
+    }    
+
+// Button Twenty   
+
+    .orangesquare {
+        position: relative;
+        margin: 21px auto;
+        background: orange;
+        height: 20px;
+        width: 20px;
+    }    
+
+// Button Twentyone   
+
+    .pinksquare {
+        position: relative;
+        margin: 21px auto;
+        background: pink;
+        height: 20px;
+        width: 20px;
+    }    
+
+// Button Twentythree   
+
+    .orangerectangle {
+        position: relative;
+        margin: 21px auto;
+        background: orange;
+        height: 10px;
+        width: 100px;
+    }    
+
 }
+
+
+  
+
 
 
 

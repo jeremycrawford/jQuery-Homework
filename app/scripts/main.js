@@ -80,7 +80,7 @@ $('.seven').mouseleave(function(){
 
 // Ten
 
-$('.eight').click(function(){
+$('.eight').hover(function(){
 	console.log('highlights when curser leaves');
 
 	$(this).toggleClass('fadein');
@@ -88,7 +88,7 @@ $('.eight').click(function(){
 
 // Eleven
 
-$('.nine').click(function(){
+$('.nine').hover(function(){
 	console.log('highlights when curser leaves');
 
 	$('.button').not(this).toggleClass('fadeallbuttons');
@@ -104,12 +104,100 @@ $('.ten').hover(function(){
 
 // Thirteen
 
-$('.eleven').click(function(){
-	console.log('highlights when curser leaves');
-	
-	$('.title').not(this).toggleClass('fadetitle');
+$('.eleven').hover(function(){
+
+    $(this).toggleClass('widen');
+});
+
+// Fourteen
+
+$('.twelve').hover(function(){
+	console.log('make box larger inside');
+
+	$('.white-box').toggleClass('expand');
+});
+
+// Fifteen
+
+$('.thirteen').hover(function(){
+	console.log('box spins when hovered');
+
+	$('.white-box-two').toggleClass('spin');
+});
+
+// Sixteen
+
+$('.fourteen').hover(function(){
+	console.log('box dissapears when hovered');
+
+	$('.green-box').toggleClass('dissapear');
+});
+
+// Button Seventeen
+
+$('.redbox').click(function(){ 
+	console.log('box slides when hovered');
+
+	$(this).fadeOut(3000, 0);
+	$(this).fadeIn(3000, 0);
+});
+
+// Button Eighten
+
+$('.yellowrectangle').hover(function(){ 
+	console.log('box slides when hovered');
+
+	$(this).fadeOut(3000, 0);
+	$(this).fadeIn(3000, 0);
+});
+
+// Button Nineteen
+
+$('.bluerectangle').hover(function(){ 
+	console.log('box slides when hovered');
+
+	$(this).fadeOut(3000, 0);
+	$(this).fadeIn(3000, 0);
+});
+
+// Button Twenty
+
+$('.orangesquare').hover(function(){ 
+	console.log('box slides when hovered');
+
+	$(this).fadeOut(3000, 0);
+	$(this).fadeIn(3000, 0);
+});
+
+// Button Twentyone
+
+$('.pinksquare').hover(function(){ 
+	console.log('box slides when hovered');
+
+	$(this).fadeOut('fast');
+	$(this).fadeIn(3000, 0);
+});
+
+// Button Twentytwo
+
+$('.orangecircle').hover(function(){ 
+	console.log('box slides when hovered');
+
+	$(this).fadeOut('fast');
+	$(this).fadeIn(5000, 0);
+});
+
+// Button Twentythree
+
+$('.orangerectangle').hover(function(){ 
+	console.log('box slides when hovered');
 
 });
+
+
+
+
+
 
 
 
@@ -140,17 +228,17 @@ $('.eleven').click(function(){
 
 // javascript
 
-var dog = {
-	legs: 4,
-	ears: 2,
-	barl: function(){
-		console.log("WOOF!")
-	},
+// var dog = {
+// 	legs: 4,
+// 	ears: 2,
+// 	barl: function(){
+// 		console.log("WOOF!")
+// 	},
 
-	countEars: function(){
-	console.log('I have', this.ears, 'on my back')
-	}
-}
+// 	countEars: function(){
+// 	console.log('I have', this.ears, 'on my back')
+// 	}
+// }
 
 
 
